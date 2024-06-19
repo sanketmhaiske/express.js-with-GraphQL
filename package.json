@@ -1,0 +1,21 @@
+{
+  "name": "expressgql",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "sanket m",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@apollo/subgraph": "^2.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "graphql": "^16.8.2",
+    "graphql-tag": "^2.12.6",
+    "nodemon": "^3.1.3"
+  }
+}
